@@ -5,8 +5,8 @@
 const cash = prompt('Введите сумму', '');
 
 function conversion (euro, dollar) {
-    let dol = cash * euro;
-    let rub = dol * dollar;
+    const dol = cash * euro;
+    const rub = dol * dollar;
     console.log(rub)
 }
 
